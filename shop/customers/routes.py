@@ -10,7 +10,7 @@ import pdfkit
 import stripe
 
 buplishable_key ='pk_test_MaILxTYQ15v5Uhd6NKI9wPdD00qdL0QZSl'
-stripe.api_key ='sk_test_9JlhVB6qwjcRdYzizjdwgIo0Dt00N55uxbWy'
+stripe.api_key ='sk_test_9JlhVB6qwjcRdYzizjdwgIo0Dt00N5uxbWy'
 
 @app.route('/payment',methods=['POST'])
 def payment():
